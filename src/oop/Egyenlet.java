@@ -41,6 +41,6 @@ public class Egyenlet {
     }
     
     public boolean megoldasE(int x, int y, int z){
-        return (a * x + b * y + c * z == penzOsszeg) && (a + b + c == allatOsszeg);
+        return (a * x + b * y + c * z == penzOsszeg) && (x + y + z == allatOsszeg);
     }
 }
